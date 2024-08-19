@@ -7,7 +7,7 @@
 body {
   width: 100%;
   height: 100vh;
-  background-color: wheat;
+  background-image: linear-gradient(0deg, #333, wheat, #333, 75%, wheat);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,6 +16,7 @@ body {
 .container {
   position: absolute;
   background: #333;
+  box-shadow: 1px 50px 400px black;
   border-radius: 5%;
   width: 400px;
   height: 500px;
@@ -42,7 +43,7 @@ body {
   position: relative;
   width: 100%;
   height: 150px;
-  background-color: #fff;
+  background-color: #eceaea;
   border-radius: 12px;
   border: 1px solid gray;
   display: flex;
